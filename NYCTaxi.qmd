@@ -6,7 +6,7 @@ execute:
   enabled: true
   cache: false
   freeze: false
-  error: true
+  error: false
 ---
 
 ```{python}
@@ -90,8 +90,6 @@ fig3 = px.line_mapbox(
     zoom=11
 )
 
-for trace in scatter_data:
-    fig.add_trace(trace)
 
 fig3.show()
 ```
