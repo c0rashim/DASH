@@ -55,7 +55,7 @@ fig1.update_layout(
 
 fig1.show()
 ```
-## Column {width=50%}
+
 
 ```{python}
 #| title: 요일,시간에 따른 평균이동거리 시각화        
