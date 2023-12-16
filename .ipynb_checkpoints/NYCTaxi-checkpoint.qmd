@@ -98,7 +98,7 @@ fig3 = px.line_mapbox(
     lat = 'latitude',
     lon = 'longitude',
     line_group = 'id',
-    color = 'speed_cut',
+    color = 'speed_quantile',
     #---#
     mapbox_style = 'carto-positron',
     zoom=11
@@ -109,7 +109,7 @@ scatter_data = px.scatter_mapbox(
     lon = 'longitude',
     size = 'passenger_count',
     size_max = 10,
-    color = 'speed_cut',
+    color = 'speed_quantile',
     #---#
     mapbox_style = 'carto-positron',
     zoom=11
