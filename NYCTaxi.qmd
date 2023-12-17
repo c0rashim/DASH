@@ -43,8 +43,8 @@ pivot_table1 = df.pivot_table(values='speed', index='dayofweek_kr', columns='pic
 fig1 = px.imshow(pivot_table1, labels=dict(color="평균 속력"), x=pivot_table1.columns, y=pivot_table1.index)
 
 fig1.update_layout(
-    xaxis_title="요일",
-    yaxis_title="탑승 시간",
+    xaxis_title="탑승 시간",
+    yaxis_title="요일",
 )
 
 
@@ -53,8 +53,8 @@ pivot_table2 = df.pivot_table(values='dist', index='dayofweek_kr', columns='pick
 fig2 = px.imshow(pivot_table2, labels=dict(color="평균 이동거리"), x=pivot_table2.columns, y=pivot_table2.index)
 
 fig2.update_layout(
-    xaxis_title="요일",
-    yaxis_title="탑승 시간",
+    xaxis_title="탑승 시간",
+    yaxis_title="요일",
 )
 
 
