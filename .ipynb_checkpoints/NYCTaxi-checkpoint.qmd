@@ -1,6 +1,6 @@
 ---
 title: "NYCTaxi"
-author: "심채연(2018-21971)"
+author: "심채연"
 format: dashboard
 execute: 
   enabled: true
